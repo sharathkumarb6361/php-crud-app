@@ -21,4 +21,3 @@ This project demonstrates how to manage student records with basic database oper
 
 ---
 
-## 📂 Project Structure
