@@ -1,0 +1,126 @@
+/* Global styles */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7fa;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Buttons & Links */
+a, button {
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Add Student Button */
+a[href="add.php"] {
+    background: #27ae60;
+    color: #fff;
+}
+a[href="add.php"]:hover {
+    background: #219150;
+}
+
+/* Action Links (Edit / Delete) */
+a[href*="edit"] {
+    background: #2980b9;
+    color: #fff;
+}
+a[href*="edit"]:hover {
+    background: #1f6694;
+}
+
+a[href*="delete"] {
+    background: #e74c3c;
+    color: #fff;
+}
+a[href*="delete"]:hover {
+    background: #c0392b;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead {
+    background: #34495e;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tr:hover {
+    background: #f1f1f1;
+    transition: background 0.3s ease;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border 0.3s;
+}
+
+form input:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.3);
+}
+
+form button {
+    background: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+form button:hover {
+    background: #1f6694;
+}
